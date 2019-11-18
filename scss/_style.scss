@@ -1,0 +1,88 @@
+/** ENKEL MOBIELE CSS**/
+nav{
+  height:90px;
+  z-index:5;
+}
+.navbar-toggler{
+  background:grey;
+  &:hover{
+    background: #5094f2;
+  }
+}
+.nav-item{
+  background: #5094f2;
+  color: white;
+  border-bottom: 1px solid #fff;
+
+}
+.nav-link{
+  color:#fff !important;
+  font-size:1.27rem;
+  &:hover{
+    padding-left:20px;
+  }
+}
+.navbar-brand{
+  padding-left:30px;
+}
+#brand{
+  font-size:3.09rem;
+  padding-left:19px;
+}
+/** ENKEL CSS GROTER DAN MOBIEL**/
+/** MEDIA QUERIES **/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  body{
+
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body{
+    background:blue;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  body,nav{
+    max-width:1250px;
+    width:100%;
+    margin:0 auto;
+  }
+
+  .navbar-brand{
+    padding-left:141px;
+  }
+  .navbar-nav{
+    margin-right: 138px;
+
+  }
+  .nav-item{
+    background:#fff;
+    padding-left:43px !important;
+  }
+  .nav-link{
+    color:#6c6c6c !important;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 23px;
+        &:hover{
+          border-bottom: 5px solid #5094f2;
+        }
+  }
+  #brand{
+    font-size:2.65rem;
+    padding-left:16px;
+  }
+  .carousel-caption{
+    bottom: 202px;
+    left:350px;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+
+
